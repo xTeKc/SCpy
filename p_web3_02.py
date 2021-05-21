@@ -19,3 +19,7 @@ contract_abi2 = config('CONTRACT_ABI')
 
 def is_connected2():
 	print(web3_connection2.isConnected())
+
+
+def supply_ERC20():
+	contract = web3_connection2.eth.contract(address=contract_address, abi=contract_abi)
