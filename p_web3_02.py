@@ -22,6 +22,6 @@ def is_connected2():
 
 
 def supply_ERC20():
-	contract = web3_connection2.eth.contract(address=contract_address, abi=contract_abi)
+	contract = web3_connection2.eth.contract(address=contract_address2, abi=contract_abi2)
 	supply_token = contract.functions.totalSupply().call()
 	print(supply_token)
