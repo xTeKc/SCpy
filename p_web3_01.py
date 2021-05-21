@@ -9,3 +9,8 @@ web3_connection = Web3(Web3.HTTPProvider(node_provider))
 
 def is_connected():
 	print(web3_connection.isConnected())
+
+def latest_block():
+	print(web3_connection.eth.block_number)
+
+	
