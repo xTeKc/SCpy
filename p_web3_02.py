@@ -1,3 +1,5 @@
 
 
-contract_address = config('CONTRAC_ADDRESS')
+contract_address = config('CONTRACT_ADDRESS')
+
+contract_abi = config('CONTRACT_ABI')
