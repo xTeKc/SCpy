@@ -13,3 +13,8 @@ web3_connection = Web3(Web3.HTTPProvider(node_provider))
 contract_address = config('CONTRACT_ADDRESS')
 
 contract_abi = config('CONTRACT_ABI')
+
+
+
+def is_connected():
+	print(web3_connection.isConnected())
