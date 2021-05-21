@@ -29,3 +29,4 @@ def supply_ERC20():
 
 def balance_ERC20(ERC20_address):
 	ERC20_address = Web3.toChecksumAddress(ERC20_address)
+	contract = web3_connection2.eth.contract(address=contract_address2, abi=contract_abi2)
