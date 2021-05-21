@@ -3,7 +3,7 @@
 import os
 from dotenv import load_dotenv
 from decouple import config
-
+import json
 from web3 import Web3
 
 load_dotenv()
