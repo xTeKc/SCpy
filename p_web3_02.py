@@ -18,4 +18,4 @@ contract_abi2 = config('CONTRACT_ABI')
 
 
 def is_connected2():
-	print(web3_connection.isConnected())
+	print(web3_connection2.isConnected())
