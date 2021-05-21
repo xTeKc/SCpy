@@ -1,6 +1,6 @@
 
 
-
+import os
 
 contract_address = config('CONTRACT_ADDRESS')
 
