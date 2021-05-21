@@ -15,4 +15,5 @@ def latest_block():
 
 def balance_of(ETH_address):
 	balance = web3_connection.eth.get_balance(ETH_address)
-	print(balance)
+	balance_ETH = web3_connection.fromWei(balance, 'ether')
+	print(balance_ETH)
